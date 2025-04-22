@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="container">
+            <div class="brand">
+                <span class="logo">🌐 WebHub</span>
+            </div>
+            <ul class="nav-items">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Pages -->
+    <main>
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1 class="hero-title">Welcome to WebHub</h1>
+                    <p class="hero-subtitle">Crafting Digital Excellence</p>
+                    <button class="hero-cta">Get Started</button>
+                </div>
+            </div>
+
+            <div class="features container">
+                <div class="feature-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Fast Performance</h3>
+                    <p>Lightning-fast loading times and smooth interactions</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🎨</div>
+                    <h3>Modern Design</h3>
+                    <p>Clean and intuitive user interfaces</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🔒</div>
+                    <h3>Secure</h3>
+                    <p>Enterprise-grade security protocols</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>Our Story</h3>
+                        <p>Founded in 2020, we've been delivering cutting-edge web solutions to businesses worldwide.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Our Team</h3>
+                        <div class="team-grid">
+                            <div class="team-member">
+                                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Team member">
+                                <h4>John Doe</h4>
+                                <p>CTO</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="https://randomuser.me/api/portraits/women/75.jpg" alt="Team member">
+                                <h4>Jane Smith</h4>
+                                <p>CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Page -->
+        <section id="services" class="page">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">💻</div>
+                        <h3>Web Development</h3>
+                        <ul class="service-list">
+                            <li>Custom CMS Development</li>
+                            <li>E-commerce Solutions</li>
+                            <li>API Integration</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3>Mobile Apps</h3>
+                        <ul class="service-list">
+                            <li>iOS & Android Development</li>
+                            <li>Cross-platform Apps</li>
+                            <li>UI/UX Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-wrapper">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Message" rows="5" required></textarea>
+                        </div>
+                        <button class="form-button">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <h3>📍 Location</h3>
+                            <p>123 Tech Street<br>Digital City, DC 12345</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>📞 Contact</h3>
+                            <p>+1 (555) 123-4567<br>contact@webhub.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 WebHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
